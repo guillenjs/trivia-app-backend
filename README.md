@@ -11,7 +11,7 @@ Trivia 400 is an application for user to take trivia quizzes and further their k
 3. run rails seed file
     ###### `$ rails db:seed`
 4. run rails server 
-    Before running server in config/initializers/cors.rb un-comment out 
+    Before running server in config/initializers/cors.rb comment out 
      ###### origins ENV['FRONT_END_URL'] 
     and comment in 
      ###### origins 'http://localhost:3001', "https://trivia-400.netlify.app/"
